@@ -11,9 +11,10 @@ function App() {
   
 
   return (
-    <div className=' w-full h-auto bg-bodyColor text-lightText'>
-      <div className=' max-w-screen-xl mx-auto px-16'>
-      <Navbar />
+    <div className=' w-full h-auto bg-bodyColor text-lightText px-4'>
+       <Navbar />
+      <div className=' max-w-screen-xl mx-auto'>
+     
       <Banner />
    <Features />
    <Projects/>

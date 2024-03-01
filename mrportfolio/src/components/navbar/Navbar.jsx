@@ -1,9 +1,10 @@
 import React from 'react';
+import {Link} from 'react-scroll'
 import {Mostafijur } from '../../assets/index';
 import { navLinksdata} from'../../constants';
 function Navbar() {
   return (
-    <div className=' w-full h-20 mx-auto flex justify-between items-center'>
+    <div className=' w-full h-20 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-orange-200'>
      
      <div>
         <img src={Mostafijur}  className=' w-16 h-16 rounded-full'  />
@@ -12,9 +13,19 @@ function Navbar() {
      <div>
         <ul className=' flex items-center gap-10'>
         {
-             navLinksdata.map((item)=>(
-                <li key={item._id} className=' text-base font-normal text-gray-400 
-                tracking-wide cursor-pointer hover:text-designColor duration-300'>{item.title}</li>
+             navLinksdata.map(({_id, title, link})=>(
+                <li key={_id} className=' text-base font-normal text-gray-400 
+                tracking-wide cursor-pointer
+                 hover:text-designColor duration-300'> 
+                 <Link
+                 activeClass="active"
+                 to={link}
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration={500}
+                 
+                 >{title}</Link></li>
             ))
         } 
         </ul>
