@@ -2,11 +2,13 @@ import React from 'react';
 import {Link} from 'react-scroll'
 import {Mostafijur } from '../../assets/index';
 import { navLinksdata} from'../../constants';
+
 function Navbar() {
   return (
-    <div className=' w-full h-20 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-orange-200'>
+    <div className=' w-full h-20 mx-auto flex justify-between sticky top-0 z-50 
+    items-center font-titleFont border-b-[1px] border-b-orange-200'>
      
-     <div>
+     <div >
         <img src={Mostafijur}  className=' w-16 h-16 rounded-full'  />
 
      </div>
