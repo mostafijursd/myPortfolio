@@ -16,8 +16,7 @@ function Card({title}) {
      hover:to-[#1e2024] transition-colors duration-100 group">
 <div className=' flex flex-col gap-4'>
     <div>
-    <h2 className=' text-3xl 
-    font-titleFont font-bold text-gray-300'>{title}</h2>
+    <h2 className=' text-3xl font-titleFont font-bold text-gray-300'>{title}</h2>
 </div>
 <div>
   <div className=' gap-2'>
