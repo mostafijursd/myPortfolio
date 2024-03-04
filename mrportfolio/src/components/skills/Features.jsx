@@ -7,7 +7,7 @@ function Features() {
     <section id='skills' className=' w-full h-[800px] py-20 flex  flex-col  border-b-[1px]
     border-b-black '>
 
-<Title/>
+<Title title="Skills"/>
 <div className='  flex justify-between gap-10' >
   
  <Card title="Frontend" />

@@ -20,9 +20,9 @@ function Card({title}) {
 </div>
 <div>
   <div className=' gap-2'>
-<p className=' flex justify-between text-2xl' >HTML5 <span  ><FaHtml5/></span></p>
+<p className=' flex justify-between text-2xl' >HTML5 <span ><FaHtml5/></span></p>
     
-    <p className=' flex justify-between  text-2xl '>CSS3 <span  ><FaCss3Alt/></span></p>
+    <p className=' flex justify-between text-2xl '>CSS3 <span  ><FaCss3Alt/></span></p>
     <p className=' flex justify-between  text-2xl'> JavaScript <span >< IoLogoJavascript/></span></p>
     <p className=' flex justify-between  text-2xl'  >React js <span > <FaReact/></span></p> 
     <p className=' flex justify-between  text-2xl'>Next js <span > <SiNextdotjs/></span></p>
