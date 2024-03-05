@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-scroll'
-import {Mostafijur } from '../../assets/index';
+import {Mostafijur ,logo,logoOne } from '../../assets/index';
 import { navLinksdata} from'../../constants';
 
 function Navbar() {
@@ -9,7 +9,7 @@ function Navbar() {
     items-center font-titleFont border-b-[1px] border-b-orange-200'>
      
      <div >
-        <img src={Mostafijur}  className=' w-16 h-16 rounded-full'  />
+        <img src={logo}  className=' w-16 h-16 rounded-full'  />
 
      </div>
      <div>
