@@ -49,7 +49,7 @@ function LeftBanner() {
               cursor-pointer duration-300"
     
 >
-              <FaFacebook/>
+              <FaFacebook />
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
