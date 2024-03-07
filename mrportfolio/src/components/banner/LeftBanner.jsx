@@ -8,6 +8,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa6";
+
 function LeftBanner() {
     
     const [text] = useTypewriter({
@@ -49,7 +50,8 @@ function LeftBanner() {
               cursor-pointer duration-300"
     
 >
-              <FaFacebook />
+  <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/"> <FaFacebook /></a>
+             
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
@@ -63,7 +65,10 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-              <FaLinkedin />
+             
+                <FaLinkedin  />
+                
+            
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
