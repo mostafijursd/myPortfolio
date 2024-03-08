@@ -10,16 +10,17 @@ function ResumeCard({title ,des,subTitle,result}) {
  </span>
 </div>
 <div className=" w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 
-rounded-lg flex flex-col justify-center gap10 shadow-shadowOne px-10 ">
+rounded-lg flex flex-col justify-center gap-10 shadow-shadowOne px-10 ">
 <div className=' flex justify-between items-center'>
 <div>
-<h3 className="text-xl  font-semibold group-hover:text-white duration-300 ">{title}</h3>
-<p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300" >{subTitle}</p>
+<h3 className="text-2xl  font-semibold group-hover:text-white duration-300 ">{title}</h3>
+<p className="text-xl mt-2 text-gray-400 group-hover:text-white duration-300" >{subTitle}</p>
 </div>
 <div><p  className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center
- items-center shadow-shadowOne text-sm font-medium ">{result}</p></div>
+ items-center shadow-shadowOne text-sm font-medium ">{result}</p>
+ </div>
 </div>
-
+<p className=' text-base  font-medium text-gray-400 group-hover:text-gray-300 duration-300'>{des}</p>
 </div>
     </div>
   )

@@ -19,9 +19,9 @@ function Resume() {
     <p className=' text-sm text-designColor tracking-[4px]'>2008-2021</p>
     <h2 className=' text-4xl font-bold'>Eduction Quality</h2>
   </div>
-  <div className="mt-6  w-full
-   h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
-    <ResumeCard    title="B.Sc in Mathematics"
+  <div className=" mt-4   w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 ">
+    <ResumeCard
+        title="B.Sc in Mathematics"
             subTitle="University of Calcutta (2018 - 2021)"
             result="India"
             des="The training provided by universities in order to prepare
