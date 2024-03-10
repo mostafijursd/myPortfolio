@@ -49,8 +49,8 @@ function LeftBanner() {
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"
     
->
-  <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/"> <FaFacebook /></a>
+><a href="https://www.facebook.com/profile.php?id=100061855202473">  <FaFacebook /></a>
+
              
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
@@ -58,15 +58,15 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300">
-              <FaSquareXTwitter />
+             <a href="https://twitter.com/MostafijurSd"><FaSquareXTwitter /></a> 
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-             
-                <FaLinkedin  />
+             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/">  <FaLinkedin  /></a>
+              
                 
             
             </span>
@@ -75,7 +75,7 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-              <FaGithub />
+              <a href="https://github.com/mostafijursd"> <FaGithub/></a>
             </span>
           </div>
   </div>

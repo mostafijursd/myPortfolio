@@ -12,10 +12,43 @@ function Contact() {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-   const handleSend=(e)=>{
+   
+  // ========== Email Validation start here ==============
+  const emailValidation = () => {
+    return String(email)
+      .toLocaleLowerCase()
+      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
+  };
+  // ========== Email Validation end here ================
+
+
+   
+  const handleSend = (e) => {
     e.preventDefault();
-    console.log(username);
-   }
+    if (username === "") {
+      setErrMsg("Username is required!");
+    } else if (phoneNumber === "") {
+      setErrMsg("Phone number is required!");
+    } else if (email === "") {
+      setErrMsg("Please give your Email!");
+    } else if (!emailValidation(email)) {
+      setErrMsg("Give a valid Email!");
+    } else if (subject === "") {
+      setErrMsg("Plese give your Subject!");
+    } else if (message === "") {
+      setErrMsg("Message is required!");
+    } else {
+      setSuccessMsg(
+        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+      );
+      setErrMsg("");
+      setUsername("");
+      setPhoneNumber("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+    }
+  };
   return (
     <section       id="contact" className="w-full py-20 border-b-[1px] border-b-black  ">
 <div>
@@ -30,45 +63,73 @@ function Contact() {
 
 
 
-<form  className=' w-full flex flex-col gap-8' onSubmit={handleSend}>
+<form  className=' w-full flex flex-col gap-8' >
+{errMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                  {errMsg}
+                </p>
+              )}
+              {successMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
+
+
    <div className=' flex w-full  gap-10'>
    <div className=' w-1/2 flex flex-col gap-4'>
-<p className=' text-sm text-gray-400 uppercase tracking-wide'>YOUR NAME</p>
+<p className=' text-sm text-gray-400 uppercase tracking-wide'>Your Name</p>
 <input className='w-full h-12 rounded-lg border-b-[1px] border-b-gray-600
  bg-[#172436] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none 
- focus-visible:border-b-transparent duration-300' type="text" onChange={(e)=>setUsername(e.target.value)} />
+ focus-visible:border-b-transparent duration-300' type="text"
+  onChange={(e)=>setUsername(e.target.value)} value={username} />
     </div>
     <div className=' w-1/2 flex flex-col gap-4'>
 <p className=' text-sm text-gray-400 uppercase tracking-wide'>Phone Number</p>
 <input className='w-full h-12 rounded-lg border-b-[1px] border-b-gray-600
  bg-[#172436] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none 
- focus-visible:border-b-transparent duration-300' type="text" />
+ focus-visible:border-b-transparent duration-300'
+  type="text" onChange={(e)=>setPhoneNumber(e.target.value)} value={phoneNumber} />
     </div>
    </div>
    <div className='  flex flex-col gap-4'>
 <p className=' text-sm text-gray-400 uppercase tracking-wide'>Email</p>
 <input className='w-full h-12 rounded-lg border-b-[1px] border-b-gray-600
  bg-[#172436] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none 
- focus-visible:border-b-transparent duration-300' type="email" />
+ focus-visible:border-b-transparent duration-300' type="email"
+ onChange={(e)=>setEmail(e.target.value)} value={email} />
     </div>
     <div className='  flex flex-col gap-4'>
 <p className=' text-sm text-gray-400 uppercase tracking-wide'>Subject</p>
 <input className='w-full h-12 rounded-lg border-b-[1px] border-b-gray-600
  bg-[#172436] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none 
- focus-visible:border-b-transparent duration-300' type="text" />
+ focus-visible:border-b-transparent duration-300' type="text"
+  onChange={(e)=>setSubject(e.target.value)} value={subject} />
     </div>
     <div className='  flex flex-col gap-4'>
 <p className=' text-sm text-gray-400 uppercase tracking-wide'>Message</p>
-<textarea  cols="30" rows="10" className=' w-full rounded-lg border-b-[1px] border-b-gray-600 
-bg-[#172436]
- text-lightText px-4 py-2 active:outline-none
-  focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none'></textarea>
+<textarea  cols="30" rows="10" className=" w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#172436] text-lightText px-4 py-2 active:outline-none
+  focus-visible:outline-designColor outline-none focus-visible:border-b-transparent
+   duration-300 resize-none " onChange={(e)=>setMessage(e.target.value)} value={message} > </textarea>
+ 
     </div>
     <div>
        <button className=' w-full h-12 bg-[#364c8e] rounded-lg text-base hover:bg-[#132355]
         text-gray-400 tracking-wider uppercase hover:text-white duration-300 
-       hover:border-[1px] hover:border-designColor border-transparent'>Send Message</button>
+       hover:border-[1px] hover:border-designColor border-transparent'onClick={handleSend} >Send Message</button>
     </div>
+    {errMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b]
+                 shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                  {errMsg}
+                </p>
+              )}
+              {successMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024]
+                 to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
 </form>
 </div>
 

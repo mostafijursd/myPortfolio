@@ -5,7 +5,9 @@ import projectThree from './images/projectThree.jpg'
 import logo from './images/logo.jpg';
 import projectForu from './images/projectfour.jpg';
 import logoOne from './images/logoOne.jpg';
-import contactImg from './images/contactImg.jpg'
+import contactImg from './images/contactImg.jpg';
+import rahaman from './images/rahaman.png'
+
 export {
     Mostafijur,
     amazonOne,
@@ -14,5 +16,6 @@ export {
     logo,
     projectForu,
     logoOne,
-    contactImg
+    contactImg,
+    rahaman
 }
