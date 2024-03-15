@@ -1,6 +1,7 @@
 import React from 'react'
-import Title from '../skills/Title'
+
 import ResumeCard from './ResumeCard'
+import Title from '../layout/Title'
 function Resume() {
   return (
  <section id='resume'  className="w-full py-20 border-b-[1px] border-b-black">
@@ -8,11 +9,13 @@ function Resume() {
         <Title title="My Resume"  />
       </div>
 <div>
-  <ul className=' w-full grid grid-cols-4 gap-4'>
-  <li className=' w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center *
- cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>Eduction </li>
-  <li className=' w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center *
- cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>Professional Skill</li>
+  <ul className=' w-full  gap-4'>
+  <li className=' w-full  h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center 
+ cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>
+  Eduction </li>
+  {/* <li className=' w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center *
+ cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>
+ </li> */}
   </ul>
   </div>
   <div className=' py-12 font-titleFont gap-4'>
@@ -24,10 +27,15 @@ function Resume() {
         title="B.Sc in Mathematics"
             subTitle="University of Calcutta (2018 - 2021)"
             result="India"
-            des="The training provided by universities in order to prepare
-             people to work in various sectors of the economy or areas of culture."/>
-    <ResumeCard />
-    <ResumeCard />
+            des=""/>
+    <ResumeCard  title=" HS ()"
+            subTitle="Panighata U.D.M High School (2015-2018)"
+            result="India"
+            des="" />
+    <ResumeCard   title="MP"
+            subTitle="(2009 - 2015)"
+            result="India"
+            des=""/>
 
   </div>
  </section>

@@ -1,7 +1,8 @@
 import React from 'react';
-import Title from '../skills/Title';
+
 import ResumeCard from '../resume/ResumeCard';
 import {motion} from "framer-motion"
+import Title from '../layout/Title';
 function Experience() {
   return (
     <section id='experience'  className=" w-full  py-20 flex  flex-col  border-b-[1px]

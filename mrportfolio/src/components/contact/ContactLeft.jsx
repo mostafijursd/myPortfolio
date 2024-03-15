@@ -27,7 +27,7 @@ function ContactLeft() {
                 hover:-translate-y-1 transition-all hover:text-designColor
                  cursor-pointer duration-300"  >
                 
-                   <FaLinkedin  />
+                <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/">  <FaLinkedin  /></a>
                </span>
                <span className="w-10 h-10 bg-blue-800 bg-opacity-25
                 text-gray-200 text-xl inline-flex items-center 
@@ -35,7 +35,7 @@ function ContactLeft() {
                 hover:-translate-y-1 transition-all hover:text-designColor
                  cursor-pointer duration-300"  >
                 
-                   <FaFacebook  />
+                <a href="https://www.facebook.com/profile.php?id=100061855202473">  <FaFacebook /></a>
                </span>
                <span className="w-10 h-10 bg-blue-800 bg-opacity-25
                 text-gray-200 text-xl inline-flex items-center 
@@ -43,7 +43,7 @@ function ContactLeft() {
                 hover:-translate-y-1 transition-all hover:text-designColor
                  cursor-pointer duration-300"  >
                 
-                   < FaSquareXTwitter />
+                <a href="https://twitter.com/MostafijurSd"><FaSquareXTwitter /></a> 
                </span>
                
            </div>

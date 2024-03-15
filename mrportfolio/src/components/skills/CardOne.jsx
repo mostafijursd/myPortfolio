@@ -7,7 +7,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
-function Card({title}) {
+function CardOne({title}) {
   return (
     <div className="w-full px-12 h-80 py-10 rounded-lg 
     shadow-shadowOne flex items-center bg-gradient-to-r
@@ -40,4 +40,4 @@ function Card({title}) {
   )
 }
 
-export default Card
+export default CardOne;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -12,14 +12,14 @@ import { FaGithub } from "react-icons/fa6";
 function LeftBanner() {
     
     const [text] = useTypewriter({
-        words: ["React Developer.", "Full Stack Developer." ],
+        words: ["React Developer.", "Full Stack Developer." ," Frontend Developer."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
         delaySpeed: 2000,
       });
   return (
-    <div className=' w-1/2 flex flex-col gap-20'>
+    <div className=' w-full  lgl:w-1/2 flex flex-col gap-20'>
   <div className=' flex flex-col gap-3'>
     <h4 className=' text-lg italic font-normal'>  Welcome To My World</h4>
     <h1 className=' text-6xl font-bold capitalize'>Hi , I'm {" "}
@@ -39,7 +39,7 @@ function LeftBanner() {
        I am eager to contribute to innovative software solutions.
       </p>
   </div>
-  <div className=' flex justify-between'>
+  <div className=' flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between'>
   <div className=''>
     <h2 className=' text-base uppercase font-bodyFont mb-4'> Find me in </h2>
     <div className="flex gap-4">
@@ -118,4 +118,4 @@ function LeftBanner() {
   )
 }
 
-export default LeftBanner
+export default LeftBanner;

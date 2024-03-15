@@ -1,22 +1,22 @@
 import React from 'react';
-import {Link} from 'react-scroll'
-import {Mostafijur ,logo,logoOne } from '../../assets/index';
+import {Link} from 'react-scroll';
+import {logo } from '../../assets/index';
 import { navLinksdata} from'../../constants';
 
 function Navbar() {
   return (
     <div className=' w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between
-     items-center font-titleFont border-b-[1px] border-b-gray-600'>
+     items-center font-titleFont border-b-[1px] border-b-gray-600  '>
      
      <div >
-        <img src={logo}  className=' w-16 h-16 rounded-full'  />
+        <img src={logo}  className=' w-16 h-16 rounded-full shadow-shadowOne'  />
 
      </div>
      <div>
-        <ul className='flex items-center  gap-10'>
+        <ul className=' hidden mdl:inline-flex  items-center  gap-6 lg:gap-10'>
         {
              navLinksdata.map(({_id, title, link})=>(
-                <li key={_id} className=' text-base font-normal text-gray-400 
+                <li key={_id} className=' text-base font-normal text-gray-300 
                 tracking-wide cursor-pointer
                  hover:text-designColor duration-300'> 
                  <Link
@@ -36,4 +36,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar; 
