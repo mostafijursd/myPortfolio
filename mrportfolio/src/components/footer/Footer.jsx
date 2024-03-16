@@ -6,8 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className=' w-full py-20 h-96 border-b-[px] border-b-black 
-    grid grid-cols-4 gap-8'>
+    <div className='w-full py-20 h-auto border-b-[1px]
+     border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8'>
 <div className=' w-full h-full flex flex-col gap-8 '>
 
     <img src={logo} alt="logo"  className=" w-32 rounded-full shadow-shadowOne"/>
@@ -17,14 +17,14 @@ function Footer() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300">
-             <a href="https://twitter.com/MostafijurSd"><FaSquareXTwitter /></a> 
+             <a href="https://twitter.com/MostafijurSd" target='_blank'><FaSquareXTwitter /></a> 
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/">  <FaLinkedin  /></a>
+             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/" target='_blank'>  <FaLinkedin  /></a>
               
                 
             
@@ -34,7 +34,7 @@ function Footer() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-              <a href="https://github.com/mostafijursd"> <FaGithub/></a>
+              <a href="https://github.com/mostafijursd" target='_blank'> <FaGithub/></a>
             </span>
     </div>
 </div>
