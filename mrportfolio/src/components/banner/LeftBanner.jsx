@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa6";
 function LeftBanner() {
     
     const [text] = useTypewriter({
-        words: ["React Developer.", "Full Stack Developer." ," Frontend Developer."],
+        words: ["React Js Developer.", "Full Stack Developer." ," Frontend Developer."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 10,
