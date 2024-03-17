@@ -7,7 +7,7 @@ import { MdClose } from "react-icons/md";
 import { FaInstagramSquare, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 function Navbar() {
-   const [showMenu, setShowMenu]= useState(false)
+   const [showMenu, setShowMenu]= useState(false);
   return (
     <div className=' w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between
      items-center font-titleFont border-b-[1px] border-b-gray-600  '>
@@ -37,7 +37,8 @@ function Navbar() {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mdl:hidden bg-stone-900 w-10 h-10 inline-flex 
+           items-center justify-center rounded-full text-red-800 cursor-pointer"
         >
           <FiMenu />
         </span>
@@ -78,13 +79,14 @@ function Navbar() {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaInstagramSquare />
+                 <a href="https://www.instagram.com/mostafijur_sd?igsh=ZDlxcmtreXduYjRj" 
+                 target='_blank'><FaInstagramSquare /></a>   
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                  <a href="https://twitter.com/MostafijurSd" target='_blank' > <FaTwitter /></a> 
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                   <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/" target='_blank' ><FaLinkedinIn /></a> 
                   </span>
                 </div>
               </div>

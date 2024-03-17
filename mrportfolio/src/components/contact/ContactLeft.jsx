@@ -12,8 +12,8 @@ function ContactLeft() {
         <div className=' flex flex-col gap-4'>
          <h3 className=' text-3xl font-bold text-white'>Mostafijur Rahaman</h3>
         <p className=' text-lg font-normal text-gray-400'>React js Developer</p>
-        <p className=' text-base text-gray-400 tracking-wide'>Lorem ipsum dolor sit amet,
-         consectetur adipisicing elit. Dolorem, cum!</p>
+        <p className=' text-base text-gray-400 tracking-wide'>Kolkata, West Bengal, India 
+         </p>
          <p className=' text-base text-gray-400 flex items-center gap-2'> Phone : 
          <span className=' text-lightText'>+91 6294356368</span></p>
          <p className=' text-base text-gray-400 flex items-center gap-2'>Email { " "} : 

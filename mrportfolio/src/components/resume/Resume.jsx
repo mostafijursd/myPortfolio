@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import ResumeCard from './ResumeCard'
-import Title from '../layout/Title'
+import ResumeCard from './ResumeCard';
+import Title from '../layout/Title';
 function Resume() {
   return (
  <section id='resume'  className="w-full py-20 border-b-[1px] border-b-black">
@@ -27,19 +27,21 @@ function Resume() {
         title="B.Sc in Mathematics"
             subTitle="University of Calcutta (2018 - 2021)"
             result="India"
-            des=""/>
-    <ResumeCard  title=" HS ()"
-            subTitle="Panighata U.D.M High School (2015-2018)"
+            des=" I completed Honors in Mathematics from New Alipore, and I enjoy Maths in Real Analysis
+             and Higher Algebra along with proficiency in programming languages. "/>
+    <ResumeCard  title=" HS (Science)"
+            subTitle="Panighata UDM High School (2015-2018)"
             result="India"
-            des="" />
+            des="My passion for mathematics and software engineering ignited during my 11th grade.
+             I have continued to nurture this passion ever since." />
     <ResumeCard   title="MP"
-            subTitle="(2009 - 2015)"
+            subTitle="Panighata UDM High School (2009 - 2015)"
             result="India"
-            des=""/>
+            des="I am from Panighata UDM High School and I took my secondary exam in 2015."/>
 
   </div>
  </section>
   )
 }
 
-export default Resume
+export default Resume;

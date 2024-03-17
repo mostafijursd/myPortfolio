@@ -65,7 +65,8 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/" target='_blank'>  <FaLinkedin  /></a>
+             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/"
+              target='_blank'>  <FaLinkedin  /></a>
               
                 
             
