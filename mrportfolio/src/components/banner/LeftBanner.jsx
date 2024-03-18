@@ -9,7 +9,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa6";
 import {Bio} from '../../constants'
- //import { FaInstagramSquare } from "react-icons/fa";
+
 function LeftBanner() {
     
     const [text] = useTypewriter({

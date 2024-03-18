@@ -33,12 +33,7 @@ function Experience() {
             des="I excel at cultivating a positive and inclusive learning environment for students, adept at evaluating their
              progress and offering tailored support to ensure their academic achievements."
           />
-          {/* <ResumeCard
-            title=""
-            subTitle=""
-            result=""
-            des=""
-          /> */}
+         
         </div>
       </div>
  
