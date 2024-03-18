@@ -8,6 +8,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa6";
+import {Bio} from '../../constants'
  //import { FaInstagramSquare } from "react-icons/fa";
 function LeftBanner() {
     
@@ -48,7 +49,7 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300">
-  <a href="https://www.facebook.com/profile.php?id=100061855202473" target='_blank' > 
+  <a href={Bio.facebook} target='_blank' > 
  <FaFacebook /></a>
 
              
@@ -58,14 +59,14 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300">
-             <a href="https://twitter.com/MostafijurSd" target='_blank'><FaSquareXTwitter /></a> 
+             <a href={Bio.twitter} target='_blank'><FaSquareXTwitter /></a> 
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/"
+             <a href={Bio.linkedin}
               target='_blank'>  <FaLinkedin  /></a>
               
                 
@@ -76,7 +77,7 @@ function LeftBanner() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-              <a href="https://github.com/mostafijursd" target='_blank'> <FaGithub/></a>
+              <a href={Bio.github} target='_blank'> <FaGithub/></a>
             </span>
           </div>
   </div>

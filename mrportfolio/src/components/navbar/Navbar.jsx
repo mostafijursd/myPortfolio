@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import {Link} from 'react-scroll';
 import {logo } from '../../assets/index';
-import { navLinksdata} from'../../constants';
+import { navLinksdata,Bio} from'../../constants';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaInstagramSquare, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { BiLogoInstagram } from 'react-icons/bi';
 
 function Navbar() {
    const [showMenu, setShowMenu]= useState(false);
@@ -79,14 +80,14 @@ function Navbar() {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                 <a href="https://www.instagram.com/mostafijur_sd?igsh=ZDlxcmtreXduYjRj" 
+                 <a href={Bio.instagram}
                  target='_blank'><FaInstagramSquare /></a>   
                   </span>
                   <span className="bannerIcon">
-                  <a href="https://twitter.com/MostafijurSd" target='_blank' > <FaTwitter /></a> 
+                  <a href={Bio.twitter} target='_blank' > <FaTwitter /></a> 
                   </span>
                   <span className="bannerIcon">
-                   <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/" target='_blank' ><FaLinkedinIn /></a> 
+                   <a href={Bio.linkedin} target='_blank' ><FaLinkedinIn /></a> 
                   </span>
                 </div>
               </div>
