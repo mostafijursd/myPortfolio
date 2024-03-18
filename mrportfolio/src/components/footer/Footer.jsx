@@ -2,7 +2,7 @@ import { logo } from "../../assets/index";
 import { FaGithub } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-
+import {Bio} from '../../constants'
 
 function Footer() {
   return (
@@ -17,14 +17,16 @@ function Footer() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300">
-             <a href="https://twitter.com/MostafijurSd" target='_blank'><FaSquareXTwitter /></a> 
+             <a href={Bio.twitter} target='_blank' >
+              <FaSquareXTwitter /></a> 
             </span>
             <span className="w-10 h-10 bg-blue-800 bg-opacity-25
              text-gray-200 text-xl inline-flex items-center 
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-             <a href="https://www.linkedin.com/in/mostafijur-rahaman-b5750927a/" target='_blank'>  <FaLinkedin  /></a>
+             <a href={Bio.linkedin}
+             target='_blank'>  <FaLinkedin  /></a>
               
                 
             
@@ -34,7 +36,7 @@ function Footer() {
              justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 
              hover:-translate-y-1 transition-all hover:text-designColor
               cursor-pointer duration-300"  >
-              <a href="https://github.com/mostafijursd" target='_blank'> <FaGithub/></a>
+              <a href={Bio.github} target='_blank'> <FaGithub/></a>
             </span>
     </div>
 </div>

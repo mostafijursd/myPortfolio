@@ -5,7 +5,7 @@ import { navLinksdata,Bio} from'../../constants';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaInstagramSquare, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { BiLogoInstagram } from 'react-icons/bi';
+
 
 function Navbar() {
    const [showMenu, setShowMenu]= useState(false);

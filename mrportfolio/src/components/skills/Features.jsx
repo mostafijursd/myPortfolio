@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import CardOne from './CardOne'
-import CardTwo from './CardTwo'
-import Title from '../layout/Title'
+import CardOne from './CardOne';
+import CardTwo from './CardTwo';
+import Title from '../layout/Title';
 function Features() {
   return (
     <section id='skills' className=' w-full py-20 border-b-[1px]

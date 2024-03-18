@@ -1,7 +1,5 @@
 import React from 'react';
-
 import ResumeCard from '../resume/ResumeCard';
-import {motion} from "framer-motion"
 import Title from '../layout/Title';
 function Experience() {
   return (
@@ -41,4 +39,4 @@ function Experience() {
   )
 }
 
-export default Experience
+export default Experience;

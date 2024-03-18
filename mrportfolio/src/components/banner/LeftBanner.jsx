@@ -8,7 +8,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa6";
-import {Bio} from '../../constants'
+import {Bio} from '../../constants';
 
 function LeftBanner() {
     

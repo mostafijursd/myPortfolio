@@ -13,9 +13,7 @@ function Resume() {
   <li className=' w-full  h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center 
  cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>
   Eduction </li>
-  {/* <li className=' w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center *
- cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-full'>
- </li> */}
+  
   </ul>
   </div>
   <div className=' py-12 font-titleFont gap-4'>
@@ -33,11 +31,11 @@ function Resume() {
             subTitle="Panighata UDM High School (2015-2018)"
             result="India"
             des="My passion for mathematics and software engineering ignited during my 11th grade.
-             I have continued to nurture this passion ever since." />
+             I have continued to nurture this passion ever since." />
     <ResumeCard   title="MP"
             subTitle="Panighata UDM High School (2009 - 2015)"
             result="India"
-            des="I am from Panighata UDM High School and I took my secondary exam in 2015."/>
+            des="I am from Panighata UDM High School and I took my secondary exam in 2015."/>
 
   </div>
  </section>

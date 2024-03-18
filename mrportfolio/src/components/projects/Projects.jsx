@@ -19,12 +19,18 @@ function Projects() {
   Amazon clone using React.js, Tailwind CSS, Redux, Material-UI, Axios, and Firebase. The Amazon Clone will allow
    users to add products, sign in, and log in, among other functionalities."
     href={Bio.amazonClone} />
-  <ProjectsCard title="Socal-Media" src={projectTwo} des="I created a full-stack social media platform using React.js, Tailwind CSS, React-Redux, and React-icons. The platform allows users to add products,
+  <ProjectsCard title="Socal-Media" src={projectTwo}
+   des="I created a full-stack social media platform using React.js,
+    Tailwind CSS, React-Redux, and React-icons. The platform allows users to add products,
    sign in, log in, and enjoy other functionalities."/>
-  <ProjectsCard title="Coming Soon" src={projectThree} des="Welcome! Explore our guide for top-notch React coming soon page templates for your project!" />
-  <ProjectsCard  title="Coming Soon" src={projectThree}  des="Welcome! Explore our 
+  <ProjectsCard title="Coming Soon" src={projectThree}
+   des="Welcome! Explore our guide for top-notch React coming soon 
+   page templates for your project!" />
+  <ProjectsCard  title="Coming Soon" src={projectThree} 
+   des="Welcome! Explore our 
   guide for top-notch React coming soon page templates for your project!" />
-  <ProjectsCard title="Coming Soon" src={projectForu}  des="Welcome! Explore our guide for top-notch
+  <ProjectsCard title="Coming Soon" src={projectForu} 
+   des="Welcome! Explore our guide for top-notch
    React coming soon page templates for your project!" />
   <ProjectsCard title="Coming Soon" src={projectForu} 
   des=" Welcome! Explore our

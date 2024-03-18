@@ -5,7 +5,7 @@ export const Bio = {
     instagram: "https://www.instagram.com/mostafijur_sd?igsh=ZDlxcmtreXduYjRj",
     twitter: "https://twitter.com/MostafijurSd",
     amazonClone: "https://rahaman-amazon-clone.netlify.app/"
-}
+};
 
 
 export const navLinksdata = [{
