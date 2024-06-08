@@ -7,7 +7,7 @@ import projectForu from './images/projectfour.jpg';
 import logoOne from './images/logoOne.jpg';
 import contactImg from './images/contactImg.jpg';
 import rahaman from './images/rahaman.png'
-
+import nextauthImage from "./images/nextauthImage.png"
 export {
     Mostafijur,
     amazonOne,
@@ -17,5 +17,6 @@ export {
     projectForu,
     logoOne,
     contactImg,
-    rahaman
+    rahaman,
+    nextauthImage
 }

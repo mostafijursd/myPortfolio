@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsCard from './ProjectsCard';
-import { amazonOne, projectForu, projectThree, projectTwo } from '../../assets';
+import { amazonOne, nextauthImage, projectForu, projectThree, projectTwo } from '../../assets';
 import Title from '../layout/Title';
 import { Bio } from '../../constants';
 
@@ -23,9 +23,9 @@ function Projects() {
    des="I created a full-stack social media platform using React.js,
     Tailwind CSS, React-Redux, and React-icons. The platform allows users to add products,
    sign in, log in, and enjoy other functionalities."/>
-  <ProjectsCard title="Coming Soon" src={projectThree}
+  <ProjectsCard title="NextAuth Signup page" src={nextauthImage}
    des="Welcome! Explore our guide for top-notch React coming soon 
-   page templates for your project!" />
+   page templates for your project!" href={Bio.nextauth} />
   <ProjectsCard  title="Coming Soon" src={projectThree} 
    des="Welcome! Explore our 
   guide for top-notch React coming soon page templates for your project!" />

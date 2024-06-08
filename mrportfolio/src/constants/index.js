@@ -4,7 +4,8 @@ export const Bio = {
     github: "https://github.com/mostafijursd",
     instagram: "https://www.instagram.com/mostafijur_sd?igsh=ZDlxcmtreXduYjRj",
     twitter: "https://twitter.com/MostafijurSd",
-    amazonClone: "https://rahaman-amazon-clone.netlify.app/"
+    amazonClone: "https://rahaman-amazon-clone.netlify.app/",
+    nextauth: "https://rahamandev-signup-page.vercel.app/login"
 };
 
 
