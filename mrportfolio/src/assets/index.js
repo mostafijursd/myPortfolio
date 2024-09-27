@@ -7,7 +7,8 @@ import projectForu from './images/projectfour.jpg';
 import logoOne from './images/logoOne.jpg';
 import contactImg from './images/contactImg.jpg';
 import rahaman from './images/rahaman.png'
-import nextauthImage from "./images/nextauthImage.png"
+import nextauthImage from "./images/nextauthImage.png";
+import airbnbImg from "./images/airbnbImg.png"
 export {
     Mostafijur,
     amazonOne,
@@ -18,5 +19,6 @@ export {
     logoOne,
     contactImg,
     rahaman,
-    nextauthImage
+    nextauthImage,
+    airbnbImg
 }

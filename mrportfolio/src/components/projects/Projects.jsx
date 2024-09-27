@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsCard from './ProjectsCard';
-import { amazonOne, nextauthImage, projectForu, projectThree, projectTwo } from '../../assets';
+import { airbnbImg, amazonOne, nextauthImage, projectForu, projectThree, projectTwo } from '../../assets';
 import Title from '../layout/Title';
 import { Bio } from '../../constants';
 
@@ -26,9 +26,10 @@ function Projects() {
   <ProjectsCard title="NextAuth Signup page" src={nextauthImage}
    des="Welcome! Explore our guide for top-notch React coming soon 
    page templates for your project!" href={Bio.nextauth} />
-  <ProjectsCard  title="Coming Soon" src={projectThree} 
-   des="Welcome! Explore our 
-  guide for top-notch React coming soon page templates for your project!" />
+  <ProjectsCard  title="Airbnb-clone" src={airbnbImg} 
+   des="I've recently had the opportunity to dive deep into Full Stack development while working on an Airbnb clone project 🌍. This journey has been incredibly 
+   rewarding as I got hands-on experience with some amazing technologies." href={Bio.airbnbClone} />
+  
   <ProjectsCard title="Coming Soon" src={projectForu} 
    des="Welcome! Explore our guide for top-notch
    React coming soon page templates for your project!" />

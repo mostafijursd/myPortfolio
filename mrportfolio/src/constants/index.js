@@ -5,7 +5,8 @@ export const Bio = {
     instagram: "https://www.instagram.com/mostafijur_sd?igsh=ZDlxcmtreXduYjRj",
     twitter: "https://twitter.com/MostafijurSd",
     amazonClone: "https://rahaman-amazon-clone.netlify.app/",
-    nextauth: "https://rahamandev-signup-page.vercel.app/login"
+    nextauth: "https://rahamandev-signup-page.vercel.app/login",
+    airbnbClone: "https://airbnb-video-q1kb4muj7-mostafijur-rahamans-projects.vercel.app/"
 };
 
 
